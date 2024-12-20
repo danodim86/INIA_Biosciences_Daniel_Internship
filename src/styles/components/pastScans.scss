@@ -1,0 +1,46 @@
+@media (max-width: 500px){
+  .pastScansContainer{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5DC;
+
+    .introPastScansContainer{
+      border-bottom-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+      background-color: #C5B983;
+      padding: 15px 40px 40px;
+      text-align: center;
+      color: #4a5256;
+      font-size: 14px;
+      line-height: 40px;
+      width: 100%;
+    }
+
+    .green-marked {
+      border-radius: 50%;
+      background-color: rgb(57, 213, 57);
+    }
+    
+    .calendarContainer {
+      margin: 20px auto;
+      width: 90%;
+      max-width: 600px;
+    }
+    
+    .dayDetailsContainer {
+      margin-top: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      color: #1e2123;
+      div ul li{
+        border: 2px solid #1e2123 !important;
+        color: #1e2123 !important;
+      }
+    
+    }
+    
+  }
+}

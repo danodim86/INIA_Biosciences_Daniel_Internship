@@ -1,0 +1,135 @@
+@media (max-width: 500px){
+  .scanPlaquesPage{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5DC;
+
+    .introContainer{
+      border-bottom-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+      background-color: #C5B983;
+      padding: 15px 40px 40px;
+      text-align: center;
+      color: #4a5256;
+      font-size: 14px;
+      line-height: 40px;
+    }
+
+    .buttonsFunctCont{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      margin: 80px auto 0;
+      gap: 30px;
+      button{
+        background-color: #BB9300;
+        color: #E5E7EB;
+        font-size: 18px;
+        i{
+          font-size: 30px;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 20px;
+      }
+    }
+  }
+
+
+  .makeScanContainer{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5DC;
+    .cameraContainer{
+      width: 100vw;
+      height: calc(100vh - 80px);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: relative;
+      border-radius: 60px;
+      .scanButtonContainer{
+        position: absolute;
+        width: 44vw;
+        left: 28vw;
+        bottom: 5%;
+        button{
+          border: none;
+          border-radius: 7px;
+          padding: 10px 15px;
+          width: 100%;
+          background-color: #bb9300;
+          i{
+            font-size: 32px;
+            color: #4a5256;
+          }
+        }
+      }
+    }
+
+    .popupContainer {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+    
+    .popupContent {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      width: 80%;
+      max-width: 400px;
+    }
+    
+    .popupContent h2 {
+      margin-bottom: 10px;
+    }
+    
+    .popupContent label {
+      display: block;
+      margin-bottom: 15px;
+    }
+    
+    .popupContent input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    .popupContent button {
+      background-color: #2ac3ab;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .popupContent button:hover {
+      background-color: #249e91;
+    }
+
+    .goBackButton{
+      margin-top: 15px;
+    }
+  }
+}

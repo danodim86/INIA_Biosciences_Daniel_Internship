@@ -1,0 +1,235 @@
+@media (max-width: 500px) {
+  .startTreatmentPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F5F5DC;
+  }
+  .headingTreatmentContainer {
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: #C5B983;
+    padding: 15px 40px 40px;
+    text-align: center;
+    color: #4a5256;
+    font-size: 14px;
+    line-height: 40px;
+    width: 100%;
+  }
+
+  .startContainer {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    i{
+      font-size: 100px;
+      color: white;
+    }
+  }
+
+  .startButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #2ac3ab;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .startButton:hover {
+    background-color: #249e93;
+  }
+
+  .stimulatingContainer {
+    margin-top: 50px;
+    font-size: 20px;
+    color: #555;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 150px;
+  }
+
+  .treatmentContainer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+    .doNotMoveCont{
+      width: 95%;
+      margin: 0 auto;
+      text-align: center;
+      color: #37393b;
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+
+  .timerContainer {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    i{
+      font-size: 50px;
+      color: white;
+    }
+  }
+
+  .toggleButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f0ad4e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .toggleButton:hover {
+    background-color: #ec971f;
+  }
+
+  .emergencyContainer {
+    margin-top: 30px;
+  }
+
+  .emergencyButton {
+    margin-top: 25px;
+    padding: 20px 25px;
+    font-size: 16px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .emergencyButton:hover {
+    background-color: #c9302c;
+  }
+
+  .popupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 101vw;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .popupContainer {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .popupButtons {
+    margin-top: 20px;
+  }
+
+  .yesButton,
+  .noButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .yesButton {
+    background-color: #d9534f;
+    color: white;
+  }
+
+  .yesButton:hover {
+    background-color: #c9302c;
+  }
+
+  .noButton {
+    background-color: #5bc0de;
+    color: white;
+  }
+
+  .noButton:hover {
+    background-color: #31b0d5;
+  }
+
+  .okButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2ac3ab;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .okButton:hover {
+    background-color: #248f85;
+  }
+
+  .completionBarContainer {
+    width: 70%;
+    height: 18px;
+    background-color: #e0e0e0;
+    border-radius: 9px;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .completionBar {
+    height: 100%;
+    background-color: #2ac3ab;
+    border-radius: 10px 0 0 10px;
+    transition: width 1s linear;
+  }
+
+  .completedContainer {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .completedContainer h2 {
+    color: #2ac3ab;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .completedContainer p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .backToHomepageButton {
+    background-color: #2ac3ab;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .backToHomepageButton:hover {
+    background-color: #238d83;
+  }
+}

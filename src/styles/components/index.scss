@@ -1,0 +1,38 @@
+@media (max-width: 500px){
+  .welcomePageContainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    // background-color: #2ac3ab;
+    background-color: #F5F5DC;
+    gap: 30px;
+    padding-bottom: 150px;
+
+    .welcomeTextCont{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      color: #188db1;
+      width: 100%;
+      .line{
+        width: 70%;
+        height: 2px;
+        background-color: #188db1;
+      }
+      h1{
+        text-align: center;
+        font-size:25px;
+        span{
+          font-size: 30px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

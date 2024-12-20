@@ -1,0 +1,76 @@
+@media (max-width: 500px){
+  .loginPageContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    min-height: 100vh;
+    width: 100%;
+    padding: 30px 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5DC;
+
+    img{
+      margin-bottom: 25px;
+    }
+
+    h1{
+      font-size: 20px;
+      color: #bb9300;
+      margin-bottom: 10px;
+      line-height: 24px;
+    }
+    .safeData{
+      font-size: 13px;
+      color: #4A5256;;
+      margin-bottom: 25px;
+      font-weight: 500;
+    }
+    .loginField{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 0px;
+      border-radius: 25px;
+      padding: 4px 20px;
+      background-color: #e8e4ce;
+      label{
+        color: #C4B883;
+        font-size: 12px;
+      }
+      input{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        ::placeholder{
+          color: rgb(169, 169, 169);
+        }
+      }
+      margin-bottom: 15px;
+    }
+    button{
+      margin-top: 10px;
+      margin-bottom: 12px;
+      width: 100%;
+      border-radius: 20px;
+      background-color: #bb9300;
+      color: black;
+      padding: 12px;
+      border: none;
+    }
+    .forgotPassword{
+      color: #bb9300;
+      font-size: 14px;
+      margin-bottom: 50px;    }
+    .noAccount{
+      color: #4A5256;
+      font-size: 14px;
+      span{
+        color: #bb9300
+      }
+    }
+  }
+}

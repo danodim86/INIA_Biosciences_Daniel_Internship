@@ -1,0 +1,12 @@
+@media (max-width: 500px){
+  header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 20px;
+    align-items: center;
+    p{
+      font-size: 17px;
+    }
+  }
+}
