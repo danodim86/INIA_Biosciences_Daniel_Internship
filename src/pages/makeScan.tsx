@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
 
-const makeScan = () => {
+const MakeScan = () => {
   const [isInputPopupOpen, setIsInputPopupOpen] = useState(false); 
   const [isSuccessPopupOpen, setIsSuccessPopupOpen] = useState(false); 
   const [bodyLocation, setBodyLocation] = useState(""); 
@@ -69,4 +69,4 @@ const makeScan = () => {
   );
 };
 
-export default makeScan;
+export default MakeScan;

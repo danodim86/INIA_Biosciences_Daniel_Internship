@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import { useRouter } from "next/router";
 import React from "react";
 
-const scanPlaques = () => {
+const ScanPlaques = () => {
   const router = useRouter();
   return (
     <div className="scanPlaquesPage">
@@ -25,4 +25,4 @@ const scanPlaques = () => {
   );
 };
 
-export default scanPlaques;
+export default ScanPlaques;

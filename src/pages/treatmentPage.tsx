@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 
-const treatmentPage = () => {
+const TreatmentPage = () => {
   const [step, setStep] = useState<
     "start" | "stimulating" | "treatment" | "completed"
   >("start");
@@ -180,4 +180,4 @@ const treatmentPage = () => {
   );
 };
 
-export default treatmentPage;
+export default TreatmentPage;

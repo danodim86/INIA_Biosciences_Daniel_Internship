@@ -66,7 +66,7 @@ const HistoryPage = () => {
     <div className="historyPageContainer">
       <Header backgroundColor="#C5B983" />
       <div className="introContainer">
-        <h1>"Username" Treatment History</h1>
+        <h1>Username Treatment History</h1>
       </div>
       <CalendarView
         onDateChange={setSelectedDate}

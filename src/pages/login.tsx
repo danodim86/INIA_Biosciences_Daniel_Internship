@@ -29,7 +29,7 @@ const LoginPage = () => {
       </div>
       <button  onClick={handleLogin}>LOGIN</button>
       <p className="forgotPassword">Forgot password?</p>
-      <p className="noAccount">Don't have an account? <span>Register with your doctor!</span></p>
+      <p className="noAccount">Don&apos;t have an account? <span>Register with your doctor!</span></p>
     </div>
   );
 };

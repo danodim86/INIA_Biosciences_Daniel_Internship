@@ -98,7 +98,7 @@ const ScannedPlaquesHistoryPage = () => {
                   <strong>Location:</strong> {scan.location}
                 </p>
                 <p>
-                  <strong>Doctor's Notes:</strong> {scan.notes}
+                  <strong>Doctor&apos;s Notes:</strong> {scan.notes}
                 </p>
               </li>
             ))}
@@ -112,7 +112,7 @@ const ScannedPlaquesHistoryPage = () => {
     <div className="pastScansContainer">
       <Header backgroundColor="#C5B983" />
       <div className="introPastScansContainer">
-        <h1>Username's Scanned Plaques History</h1>
+        <h1>Username&apos;s Scanned Plaques History</h1>
       </div>
       <CalendarScans
         onDateChange={setSelectedDate}
