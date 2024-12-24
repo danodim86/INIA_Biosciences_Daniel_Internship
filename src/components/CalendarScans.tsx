@@ -2,11 +2,18 @@ import React from "react";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 
+interface ScanDetail {
+  image: string;
+  description: string;
+  location: string;
+  notes: string;
+}
+
 interface CalendarViewProps {
   onDateChange: (date: Date | null) => void;
   treatmentStartDate: Date;
   today: Date;
-  completedTreatments: Record<string, any[]>;
+  completedTreatments: Record<string, ScanDetail[]>;
 }
 
 const CalendarView: React.FC<CalendarViewProps> = ({
@@ -23,7 +30,7 @@ const CalendarView: React.FC<CalendarViewProps> = ({
     }
 
     const scans = completedTreatments[dateString] || [];
-    return scans.length > 0 ? "green-marked" : ""; 
+    return scans.length > 0 ? "green-marked" : "";
   };
 
   return (
